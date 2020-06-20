@@ -30,7 +30,7 @@ public class ReadExifApp {
    * The processing code.
    */
   private void start() {
-    File file = new File("data/obelix-clio-orig.jpeg");
+    File file = new File("data/obelix-clio.jpeg");
 
     try {
       Metadata metadata = JpegMetadataReader.readMetadata(file);
